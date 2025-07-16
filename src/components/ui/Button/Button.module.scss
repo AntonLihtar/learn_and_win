@@ -1,0 +1,30 @@
+/* src/components/ui/Button/Button.module.css */
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #007bff;
+  color: white;
+  &:hover {
+    background: #5aa5f6;
+  }
+}
+
+.secondary {
+  background: #6c757d;
+  color: white;
+  &:hover {
+    background: #bfc5ca;
+  }
+}
+
+.red{
+  background: #ff0000;
+  &:hover {
+    background: #ef4b4b;
+  }
+}
